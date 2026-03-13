@@ -7,12 +7,13 @@
 
 
 ## Как пользоваться
+
+```gdscript
 Лучше всего
 func _ready():
 	await get_tree().process_frame
 	Webview.open("https://example.com")
 
-```gdscript
 # Открыть страницу
 WebView.open("https://example.com")
 
